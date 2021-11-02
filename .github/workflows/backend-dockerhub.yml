@@ -40,4 +40,4 @@ jobs:
           file: ./backend/Dockerfile
           platforms: linux/amd64
           push: ${{ github.event_name != 'pull_request' }}
-          tags: zub1984/do-visit-counter-backend:v1
+          tags: zub1984/do-visit-counter-backend:v2
